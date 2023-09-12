@@ -55,7 +55,7 @@
         <mockito.version>5.3.1</mockito.version>
         <spring.version>5.3.23</spring.version>
         <formatter-maven-plugin.version>2.23.0</formatter-maven-plugin.version>
-        <graalvm.version>21.1.0</graalvm.version>
+        <graalvm.version>21.3.7</graalvm.version>
         <buildnumber.version>3.1.0</buildnumber.version>
     </properties>
     <dependencyManagement>
@@ -114,7 +114,7 @@
                                     <action>
                                         <!-- m2e doesn't know what to do with jacoco, let's ignore it or
                                             annoying error markers appear see http://wiki.eclipse.org/M2E_plugin_execution_not_covered -->
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -127,7 +127,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute></execute>
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
