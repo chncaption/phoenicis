@@ -50,7 +50,7 @@
         <org.bouncycastle.version>1.46</org.bouncycastle.version>
         <slf4j.version>2.0.7</slf4j.version>
         <surefire.version>3.1.0</surefire.version>
-        <logback.version>1.4.7</logback.version>
+        <logback.version>1.4.14</logback.version>
         <junit.version>4.13.2</junit.version>
         <mockito.version>5.3.1</mockito.version>
         <spring.version>5.3.23</spring.version>
@@ -114,7 +114,7 @@
                                     <action>
                                         <!-- m2e doesn't know what to do with jacoco, let's ignore it or
                                             annoying error markers appear see http://wiki.eclipse.org/M2E_plugin_execution_not_covered -->
-                                        <ignore></ignore>
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -127,7 +127,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <execute></execute>
+                                        <execute/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
